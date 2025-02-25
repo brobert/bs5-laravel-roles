@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\App\Exceptions;
+namespace brobert\Bs5LaravelRoles\App\Exceptions;
 
 class PermissionDeniedException extends AccessDeniedException
 {

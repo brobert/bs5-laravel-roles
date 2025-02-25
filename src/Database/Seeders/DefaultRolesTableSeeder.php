@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Database\Seeders;
+namespace brobert\Bs5LaravelRoles\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 

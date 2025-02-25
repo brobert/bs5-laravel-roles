@@ -9,7 +9,7 @@
 Route::group([
     'middleware'    => ['web'],
     'as'            => 'laravelroles::',
-    'namespace'     => 'jeremykenedy\LaravelRoles\App\Http\Controllers',
+    'namespace'     => 'brobert\Bs5LaravelRoles\App\Http\Controllers',
     'prefix'        => config('roles.GUIRoutesPrefix'),
 ], function () {
     // Dashboards and CRUD Routes

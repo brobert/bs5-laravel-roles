@@ -1,12 +1,12 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Models;
+namespace brobert\Bs5LaravelRoles\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use jeremykenedy\LaravelRoles\Contracts\RoleHasRelations as RoleHasRelationsContract;
-use jeremykenedy\LaravelRoles\Database\Database;
-use jeremykenedy\LaravelRoles\Traits\RoleHasRelations;
-use jeremykenedy\LaravelRoles\Traits\Slugable;
+use brobert\Bs5LaravelRoles\Contracts\RoleHasRelations as RoleHasRelationsContract;
+use brobert\Bs5LaravelRoles\Database\Database;
+use brobert\Bs5LaravelRoles\Traits\RoleHasRelations;
+use brobert\Bs5LaravelRoles\Traits\Slugable;
 
 class Role extends Database implements RoleHasRelationsContract
 {

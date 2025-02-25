@@ -1,14 +1,14 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\App\Http\Controllers;
+namespace brobert\Bs5LaravelRoles\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use jeremykenedy\LaravelRoles\App\Http\Requests\StorePermissionRequest;
-use jeremykenedy\LaravelRoles\App\Http\Requests\UpdatePermissionRequest;
-use jeremykenedy\LaravelRoles\App\Services\PermissionFormFields;
-use jeremykenedy\LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
-use jeremykenedy\LaravelRoles\Traits\RolesUsageAuthTrait;
+use brobert\Bs5LaravelRoles\App\Http\Requests\StorePermissionRequest;
+use brobert\Bs5LaravelRoles\App\Http\Requests\UpdatePermissionRequest;
+use brobert\Bs5LaravelRoles\App\Services\PermissionFormFields;
+use brobert\Bs5LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
+use brobert\Bs5LaravelRoles\Traits\RolesUsageAuthTrait;
 
 class LaravelPermissionsController extends Controller
 {
@@ -43,7 +43,7 @@ class LaravelPermissionsController extends Controller
     /**
      * Store a newly created permission in storage.
      *
-     * @param \jeremykenedy\LaravelRoles\App\Http\Requests\StorePermissionRequest $request
+     * @param \brobert\Bs5LaravelRoles\App\Http\Requests\StorePermissionRequest $request
      *
      * @return \Illuminate\Http\Response
      */
@@ -88,7 +88,7 @@ class LaravelPermissionsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param \jeremykenedy\LaravelRoles\App\Http\Requests\UpdatePermissionRequest $request
+     * @param \brobert\Bs5LaravelRoles\App\Http\Requests\UpdatePermissionRequest $request
      * @param int                                                                  $id
      *
      * @return \Illuminate\Http\Response

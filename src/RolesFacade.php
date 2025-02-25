@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles;
+namespace brobert\Bs5LaravelRoles;
 
 use Illuminate\Support\Facades\Facade;
 

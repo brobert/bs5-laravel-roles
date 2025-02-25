@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\App\Http\Requests;
+namespace brobert\Bs5LaravelRoles\App\Http\Requests;
 
 class UpdateRoleRequest extends StoreRoleRequest
 {

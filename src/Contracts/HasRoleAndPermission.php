@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Contracts;
+namespace brobert\Bs5LaravelRoles\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;

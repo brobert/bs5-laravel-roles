@@ -10,7 +10,7 @@
 Route::group([
     'middleware'    => ['auth:api'],
     'as'            => 'laravelroles::',
-    'namespace'     => 'jeremykenedy\LaravelRoles\App\Http\Controllers\Api',
+    'namespace'     => 'brobert\Bs5LaravelRoles\App\Http\Controllers\Api',
     'prefix'        => 'api',
 ], function () {
     Route::apiResource('roles-api', 'LaravelRolesApiController');

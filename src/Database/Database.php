@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Database;
+namespace brobert\Bs5LaravelRoles\Database;
 
 use Illuminate\Database\Eloquent\Model;
 
